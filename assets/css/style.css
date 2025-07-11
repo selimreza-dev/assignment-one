@@ -34,6 +34,7 @@ li{
     --cool-gray:#8D8E98;
     --light-blue-gray:#E4E6FF;
     --white:#ffffff;
+    --pale-gray:#FAFCFF;
 }
 /* button style */
 a.btn{
@@ -173,3 +174,63 @@ nav{
     font-size: 18px;
 }
 /* End Productive User Section Style */
+
+/* Start Reviewer Section style */
+#user-feedback{
+    background-color: var(--secondary-color);
+    padding-top: 30px;
+}
+.user-feedback-title{
+    text-align: center;
+}
+.user-feedback-title h2{
+    font-size: 40px;
+    color:var(--dark);
+    margin-bottom: 40px;
+}
+/* user feedback card design */
+.user-feedback-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-feedback-card .feedback-card{
+    flex-basis: 32%;
+    background-color: var(--pale-gray);
+    border:1px solid var(--light-blue-gray);
+    border-radius: 10px;
+    padding:20px;
+}
+.user-feedback-card .title-sub-title h4{
+    font-size:20px;
+    color:var(--dark);
+    margin:10px 0;
+}
+.user-feedback-card .title-sub-title p{
+    font-size:16px;
+    color:var(--dark);
+    margin-bottom: 25px;
+}
+.user-feedback-card .review-image-name-date{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:15px
+}
+.user-feedback-card .review-image img{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50px;
+}
+.user-feedback-card .review-name-date p{
+    font-size:14px;
+    line-height: 20px;
+}
+.user-feedback-card .review-name-date p:first-child{
+    color:var(--dark);
+    font-weight: bold;
+}
+.user-feedback-card .review-name-date p:last-child{
+    color:var(--cool-gray);
+}
+/* End Reviewer Section style */

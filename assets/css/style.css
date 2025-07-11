@@ -22,4 +22,62 @@ a{
 li{
     list-style: none;
 }
+.container{
+    max-width: 1140px;
+    margin:0 auto;
+    padding:0 20px;
+}
+:root{
+    --primary-color:#4E47FF;
+    --secondary-color:#F5F8FF;
+    --dark:#252432;
+    --cool-gray:#8D8E98;
+    --light-blue-gray:#E4E6FF;
+    --white:#ffffff;
+}
 /* End Global Style */
+
+/* Start Header area style */
+#header{
+    background-image: url('../images/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* End Header area style */
+
+/* Start Navigation area style */
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:50px 0;
+}
+/* logo style */
+.logo h3{
+    font-size:35px;
+    font-weight: bold;
+    color:var(--dark);
+}
+.logo h3 a{
+    color:var(--dark);
+}
+.logo h3 span{
+    color:var(--primary-color);
+}
+/* sign up button style */
+.signup-btn a{
+    color:var(--white);
+    font-size:16px;
+    display: inline-block;
+    padding:10px 20px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    font-weight: 600;
+    transition:0.3s;
+}
+.signup-btn a:hover{
+    background-color: var(--dark);
+    color:var(--white);
+}
+/* End Navigation area style */

@@ -328,3 +328,47 @@ nav{
 
 
 /* End Let's Get in touch style */
+
+/* Start Footer area style */
+#footer-area{
+    background-color: var(--white);
+    padding:60px 0;
+}
+.footer-area-content{
+    text-align: center;
+}
+.footer-logo{
+    margin-bottom: 20px;
+}
+.footer-logo h3{
+    font-size: 50px;
+}
+.footer-text {
+    max-width: 50%;
+    margin:0 auto;
+}
+.footer-text p{
+    color:var(--cool-gray);
+    line-height: 25px;
+}
+
+/* footer menu */
+.footer-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top:30px;
+}
+.footer-menu ul li{
+    margin:0 25px;
+}
+.footer-menu ul li a{
+    color:var(--cool-gray);
+    transition: 0.3s;
+    font-family: inter;
+}
+.footer-menu ul li a:hover{
+    color:var(--primary-color);
+}
+/* End Footer area style */

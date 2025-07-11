@@ -266,3 +266,65 @@ nav{
     border-radius: 50px;
 }
 /* End Ready To focus style */
+
+/* Start Let's Get in touch style */
+#get-in-touch{
+    background-color: var(--secondary-color);
+    padding-top:30px;
+}
+.get-in-touch-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* title */
+.get-in-touch-title{
+    flex-basis: 60%;
+}
+.get-in-touch-title h2{
+    font-size: 80px;
+    font-weight: bold;
+    color:var(--dark);
+
+}
+/* form */
+.get-in-touch-form{
+    flex-basis: 40%;
+}
+.get-in-touch-form form input,textarea{
+    display: block;
+    width: 100%;
+    border:1px solid var(--light-blue-gray);
+    background-color: var(--white);
+    padding:15px;
+    outline:none;
+    border-radius: 8px;
+    font-family: "Raleway", sans-serif;
+}
+.get-in-touch-form form label{
+    color:var(--dark);
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-top:15px;
+    font-family: "Inter", sans-serif;
+}
+.get-in-touch-form form input[type="submit"]{
+    color:var(--white);
+    font-size:16px;
+    padding:10px 20px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    font-weight: 600;
+    transition:0.3s;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.get-in-touch-form form input[type="submit"]:hover{
+    background-color: var(--dark);
+    color:var(--white);
+    
+}
+
+
+
+/* End Let's Get in touch style */

@@ -129,6 +129,47 @@ nav{
 /* right side image */
 .right-side img{
     max-width: 320px;
-    border-radius: 50px;
+    border-radius: 40px;
 }
 /* End action section style */
+
+/* Start Productive User Section Style */
+#productive-users{
+    background-color: var(--secondary-color);
+}
+.productive-user-wrap{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--light-blue-gray);
+    padding:40px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+/* productive-users-title  */
+.productive-users-title h2{
+    font-size:35px;
+    margin-bottom: 30px;
+}
+
+/* productive-users-count */
+.productive-users-count{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap:70px; */
+    font-family: "Inter", sans-serif;
+    padding:0 50px;
+}
+.productive-users-count .users h3{
+    font-size:70px;
+    font-family: "Inter", sans-serif;
+    color:var(--primary-color);
+}
+.productive-users-count .users p{
+    color:var(--cool-gray);
+    text-align: center;
+    font-size: 18px;
+}
+/* End Productive User Section Style */

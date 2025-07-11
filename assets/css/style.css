@@ -35,6 +35,21 @@ li{
     --light-blue-gray:#E4E6FF;
     --white:#ffffff;
 }
+/* button style */
+a.btn{
+    color:var(--white);
+    font-size:16px;
+    display: inline-block;
+    padding:10px 20px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    font-weight: 600;
+    transition:0.3s;
+}
+a.btn:hover{
+    background-color: var(--dark);
+    color:var(--white);
+}
 /* End Global Style */
 
 /* Start Header area style */
@@ -65,19 +80,25 @@ nav{
 .logo h3 span{
     color:var(--primary-color);
 }
-/* sign up button style */
-.signup-btn a{
-    color:var(--white);
-    font-size:16px;
-    display: inline-block;
-    padding:10px 20px;
-    border-radius: 8px;
-    background-color: var(--primary-color);
-    font-weight: 600;
-    transition:0.3s;
-}
-.signup-btn a:hover{
-    background-color: var(--dark);
-    color:var(--white);
-}
+
 /* End Navigation area style */
+
+/* Start Banner area style */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:100px;
+    padding-bottom: 140px;
+    text-align: center;
+    padding-left:30px;
+    padding-right:30px;
+}
+.banner h1{
+    font-size: 65px;
+}
+.banner a.btn{
+    margin-top:30px;
+}
+/* End Banner area style */
